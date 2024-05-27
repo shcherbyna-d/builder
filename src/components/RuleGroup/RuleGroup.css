@@ -1,0 +1,30 @@
+.rule-group {
+  background-color: rgba(119, 136, 153, 0.5);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 4px;
+
+  &:last-child {
+    margin-bottom: initial;
+  }
+
+  .rule-group_header {
+    display: flex;
+    flex: 1;
+
+    .rule-group_title {
+      margin-right: 10px;
+      font-size: 14px;
+      color: rgb(80, 80, 80);
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+    }
+
+    .rule-group_button-group {
+      display: flex;
+      flex: 1;
+      gap: 10px;
+    }
+  }
+}

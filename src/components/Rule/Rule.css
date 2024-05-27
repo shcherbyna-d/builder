@@ -1,0 +1,29 @@
+.rule {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: rgb(169, 205, 203);
+
+  &:last-child {
+    margin-bottom: initial;
+  }
+
+  .rule_title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: grey;
+    text-transform: uppercase;
+  }
+
+  .rule_content {
+    display: flex;
+
+    .rule_controls {
+      display: flex;
+    }
+
+    .rule_delete {
+      margin-left: auto;
+    }
+  }
+}
